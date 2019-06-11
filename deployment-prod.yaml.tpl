@@ -26,7 +26,7 @@ spec:
         - containerPort: 9090
           protocol: TCP
       - name: web-apps
-        image: gcr.io/web-gke/web-apps:COMMIT_SHA
+        image: gcr.io/web-gke/nginx-web-apps:COMMIT_SHA
         resources:
           requests:
             cpu: 100m
