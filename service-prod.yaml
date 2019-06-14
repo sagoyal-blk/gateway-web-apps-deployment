@@ -11,4 +11,4 @@ spec:
   selector:
     app: gateway-webapps
   type: LoadBalancer
-  loadBalancerIP: 35.224.158.140
+  loadBalancerIP: 104.154.45.109
