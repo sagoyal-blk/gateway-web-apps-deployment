@@ -26,7 +26,7 @@ spec:
         - containerPort: 9090
           protocol: TCP
       - name: web-apps
-        image: gcr.io/web-gke/nginx-web-apps:c732b52
+        image: gcr.io/web-gke/nginx-web-apps
         resources:
           requests:
             cpu: 100m
